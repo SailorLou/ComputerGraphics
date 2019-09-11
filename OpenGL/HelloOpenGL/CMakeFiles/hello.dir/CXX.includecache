@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/helloOpenGL.cpp
+GLFW/glfw3.h
+-
+

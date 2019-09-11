@@ -1,0 +1,3 @@
+/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles/rebuild_cache.dir
+/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles/Hello.dir
+/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles/edit_cache.dir
