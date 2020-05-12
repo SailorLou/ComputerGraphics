@@ -49,65 +49,92 @@ CMAKE_SOURCE_DIR = /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL
 CMAKE_BINARY_DIR = /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL
 
 # Include any dependencies generated for this target.
-include CMakeFiles/hello.dir/depend.make
+include CMakeFiles/Hello.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/hello.dir/progress.make
+include CMakeFiles/Hello.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/hello.dir/flags.make
+include CMakeFiles/Hello.dir/flags.make
 
-CMakeFiles/hello.dir/helloOpenGL.cpp.o: CMakeFiles/hello.dir/flags.make
-CMakeFiles/hello.dir/helloOpenGL.cpp.o: helloOpenGL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hello.dir/helloOpenGL.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hello.dir/helloOpenGL.cpp.o -c /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/helloOpenGL.cpp
+CMakeFiles/Hello.dir/helloOpenGL.cpp.o: CMakeFiles/Hello.dir/flags.make
+CMakeFiles/Hello.dir/helloOpenGL.cpp.o: helloOpenGL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hello.dir/helloOpenGL.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hello.dir/helloOpenGL.cpp.o -c /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/helloOpenGL.cpp
 
-CMakeFiles/hello.dir/helloOpenGL.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello.dir/helloOpenGL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/helloOpenGL.cpp > CMakeFiles/hello.dir/helloOpenGL.cpp.i
+CMakeFiles/Hello.dir/helloOpenGL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hello.dir/helloOpenGL.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/helloOpenGL.cpp > CMakeFiles/Hello.dir/helloOpenGL.cpp.i
 
-CMakeFiles/hello.dir/helloOpenGL.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello.dir/helloOpenGL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/helloOpenGL.cpp -o CMakeFiles/hello.dir/helloOpenGL.cpp.s
+CMakeFiles/Hello.dir/helloOpenGL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hello.dir/helloOpenGL.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/helloOpenGL.cpp -o CMakeFiles/Hello.dir/helloOpenGL.cpp.s
 
-CMakeFiles/hello.dir/helloOpenGL.cpp.o.requires:
+CMakeFiles/Hello.dir/helloOpenGL.cpp.o.requires:
 
-.PHONY : CMakeFiles/hello.dir/helloOpenGL.cpp.o.requires
+.PHONY : CMakeFiles/Hello.dir/helloOpenGL.cpp.o.requires
 
-CMakeFiles/hello.dir/helloOpenGL.cpp.o.provides: CMakeFiles/hello.dir/helloOpenGL.cpp.o.requires
-	$(MAKE) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/helloOpenGL.cpp.o.provides.build
-.PHONY : CMakeFiles/hello.dir/helloOpenGL.cpp.o.provides
+CMakeFiles/Hello.dir/helloOpenGL.cpp.o.provides: CMakeFiles/Hello.dir/helloOpenGL.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/helloOpenGL.cpp.o.provides.build
+.PHONY : CMakeFiles/Hello.dir/helloOpenGL.cpp.o.provides
 
-CMakeFiles/hello.dir/helloOpenGL.cpp.o.provides.build: CMakeFiles/hello.dir/helloOpenGL.cpp.o
+CMakeFiles/Hello.dir/helloOpenGL.cpp.o.provides.build: CMakeFiles/Hello.dir/helloOpenGL.cpp.o
 
 
-# Object files for target hello
-hello_OBJECTS = \
-"CMakeFiles/hello.dir/helloOpenGL.cpp.o"
+CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o: CMakeFiles/Hello.dir/flags.make
+CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o: /home/sailor/works/ComputerGraphics/glad/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o   -c /home/sailor/works/ComputerGraphics/glad/src/glad.c
 
-# External object files for target hello
-hello_EXTERNAL_OBJECTS =
+CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sailor/works/ComputerGraphics/glad/src/glad.c > CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.i
 
-hello: CMakeFiles/hello.dir/helloOpenGL.cpp.o
-hello: CMakeFiles/hello.dir/build.make
-hello: CMakeFiles/hello.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable hello"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hello.dir/link.txt --verbose=$(VERBOSE)
+CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sailor/works/ComputerGraphics/glad/src/glad.c -o CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.s
+
+CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o.requires:
+
+.PHONY : CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o.requires
+
+CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o.provides: CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o.requires
+	$(MAKE) -f CMakeFiles/Hello.dir/build.make CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o.provides.build
+.PHONY : CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o.provides
+
+CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o.provides.build: CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o
+
+
+# Object files for target Hello
+Hello_OBJECTS = \
+"CMakeFiles/Hello.dir/helloOpenGL.cpp.o" \
+"CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o"
+
+# External object files for target Hello
+Hello_EXTERNAL_OBJECTS =
+
+Hello: CMakeFiles/Hello.dir/helloOpenGL.cpp.o
+Hello: CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o
+Hello: CMakeFiles/Hello.dir/build.make
+Hello: CMakeFiles/Hello.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Hello"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hello.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/hello.dir/build: hello
+CMakeFiles/Hello.dir/build: Hello
 
-.PHONY : CMakeFiles/hello.dir/build
+.PHONY : CMakeFiles/Hello.dir/build
 
-CMakeFiles/hello.dir/requires: CMakeFiles/hello.dir/helloOpenGL.cpp.o.requires
+CMakeFiles/Hello.dir/requires: CMakeFiles/Hello.dir/helloOpenGL.cpp.o.requires
+CMakeFiles/Hello.dir/requires: CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o.requires
 
-.PHONY : CMakeFiles/hello.dir/requires
+.PHONY : CMakeFiles/Hello.dir/requires
 
-CMakeFiles/hello.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/hello.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/hello.dir/clean
+CMakeFiles/Hello.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/Hello.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/Hello.dir/clean
 
-CMakeFiles/hello.dir/depend:
-	cd /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles/hello.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/hello.dir/depend
+CMakeFiles/Hello.dir/depend:
+	cd /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL /home/sailor/works/ComputerGraphics/OpenGL/HelloOpenGL/CMakeFiles/Hello.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/Hello.dir/depend
 
