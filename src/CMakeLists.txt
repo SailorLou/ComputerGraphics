@@ -14,3 +14,5 @@ project(OpenGLStudy LANGUAGES CXX)
 
 add_subdirectory(HelloOpenGL)
 add_subdirectory(ThirdParty)
+add_subdirectory(HelloSimpleTriangle)
+add_subdirectory(HelloRectangle)
