@@ -12,7 +12,10 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${CMAKE_BINARY_DIR}/bin)
 project(OpenGLStudy LANGUAGES CXX)
 
 
-add_subdirectory(HelloOpenGL)
 add_subdirectory(ThirdParty)
-add_subdirectory(HelloSimpleTriangle)
-add_subdirectory(HelloRectangle)
+add_subdirectory(01-HelloOpenGL)
+add_subdirectory(02-HelloRectangle)
+add_subdirectory(03-HelloSimpleTriangle)
+add_subdirectory(04-HelloTriangle)
+add_subdirectory(05-VFShaderObject)
+add_subdirectory(06-FirstTexture)

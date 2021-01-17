@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/Hello.dir/helloOpenGL.cpp.o CMakeFiles/Hello.dir/home/sailor/works/ComputerGraphics/glad/src/glad.c.o  -o Hello -lglfw3 -lX11 -lXrandr -lXi -lGL -ldl -lpthread 
